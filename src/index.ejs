@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <header>
+      <h1><%= htmlWebpackPlugin.options.title %></h1>
+    </header>
+    <main>
+      <div id="react-app"></div>
+    </main>
+    <footer>
+      <p>&copy; <time datetime="<%= htmlWebpackPlugin.options.date %>"><%= htmlWebpackPlugin.options.date %></time> <%= htmlWebpackPlugin.options.author %></p>
+    </footer>
+  </body>
+</html>
